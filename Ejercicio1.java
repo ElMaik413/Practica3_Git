@@ -15,5 +15,6 @@ public class Ejercicio1 {
         System.out.println("La suma de los primeros " + n + " números naturales es: " + suma);
         
         leer.close(); 
+        
     }
 }
