@@ -11,11 +11,11 @@ public class Ejercicio2 {
         double sumaAprobadas = 0;
         double sumaReprobadas = 0;
         
-        System.out.print("Ingresa el número total de materias (N): ");
+        System.out.println("Ingresa el número total de materias (N): ");
         int n = leer.nextInt();
         
         for (int i = 1; i <= n; i++) {
-            System.out.print("Ingresa la calificación de la materia " + i + ": ");
+            System.out.println("Ingresa la calificación de la materia " + i + ": ");
             double calificacion = leer.nextDouble();
             
             sumaTotal += calificacion; 
