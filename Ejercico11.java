@@ -3,7 +3,7 @@ import javax.swing.JOptionPane;
 public class Ejercico11 {
     public static void main(String[] args){
 
-        double aprobadas = 0, reprobadas = 0, promedioA = 0, promedioR = 0;
+        double aprobadas = 0, reprobadas = 0, promedioA = 0, promedioR = 0, promedioFA = 0, promedioFR = 0;
 
         String entrada = JOptionPane.showInputDialog("Ingrese el número de calificaiones");
         int calificaiones = Integer.parseInt(entrada);
@@ -16,26 +16,30 @@ public class Ejercico11 {
             if  ( calificacionF >= 6){
 
                 aprobadas += calificacionF;
+                promedioA++;
 
             } else {
 
                 reprobadas += calificacionF;
+                promedioR++;
 
             }
         
         }
 
-            if (aprobadas > 0){
+            if (promedioA > 0){
 
-            promedioA = aprobadas / calificaiones;
+            promedioFA = aprobadas / promedioA;
 
-            }else if (reprobadas > 0){
+            }
+            
+            if (promedioR > 0){
 
-                promedioR = reprobadas / calificaiones;
+            promedioFR = reprobadas / promedioR;
 
             }
 
-        JOptionPane.showMessageDialog(null, "Promedio de las aprobadas:\n" + aprobadas + "Promedio de las reprobadas: \n" + reprobadas);
+        JOptionPane.showMessageDialog(null, "Promedio de las aprobadas:\n" + promedioFA + "Promedio de las reprobadas: \n" + promedioFR);
 
     }
 }
