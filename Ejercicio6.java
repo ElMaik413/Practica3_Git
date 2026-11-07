@@ -6,7 +6,7 @@ public class Ejercicio6 {
         double suma = 0;
 
 
-        for (int i = 1; i <= 10; i++){
+        for (int i = 1; i <= 100; i++){
             String entrada = JOptionPane.showInputDialog("Ingrese un numero");
             int n = Integer.parseInt(entrada);
             suma = suma + n;
@@ -16,7 +16,7 @@ public class Ejercicio6 {
         }
 
         double media = suma / 100;
-        JOptionPane.showMessageDialog(null,"La media es: " + suma );
+        JOptionPane.showMessageDialog(null,"La media es: " + media);
     }
     
 }
