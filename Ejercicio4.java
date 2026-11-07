@@ -35,7 +35,7 @@ public class Ejercicio4 {
             }
         }
 
-        JOptionPane.showInputDialog(null, "Resultados finales: " + pares + "Impares: " + impares + "Positivos: " + positivos + "Negativos: " + negativos );
+        JOptionPane.showMessageDialog(null, "Resultados finales: " + pares + "Impares: " + impares + "Positivos: " + positivos + "Negativos: " + negativos );
 
     }
 
