@@ -10,7 +10,7 @@ public class Ejercicio17 {
 
             double n = Double.parseDouble(JOptionPane.showInputDialog("Ingrese consumo"));
 
-            if (n > 3) {
+            if (n > 130) {
 
             n *= 0.85;
 
