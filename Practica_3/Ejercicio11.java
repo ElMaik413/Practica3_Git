@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 
-public class Ejercico11 {
+public class Ejercicio11 {
     public static void main(String[] args){
 
         double aprobadas = 0, reprobadas = 0, promedioA = 0, promedioR = 0, promedioFA = 0, promedioFR = 0;

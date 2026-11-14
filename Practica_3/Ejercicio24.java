@@ -1,5 +1,5 @@
 import javax.swing.JOptionPane;
-public class Ejercio24 {
+public class Ejercicio24 {
     public static void main(String[] args) {
         int N = Integer.parseInt(JOptionPane.showInputDialog("Imgrese cuantos números va a sumar"));
         int suma = 0;
